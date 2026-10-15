@@ -12,7 +12,7 @@ create table autok(
     evjarat int(4) not null, 
     ar double(9,2) not null,
     rendszam varchar(8) not null,
-    klíma decimal not null,
+    klíma boolean not null,
     üzemanyag varchar(6) not null
     );
 
