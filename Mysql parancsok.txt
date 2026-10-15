@@ -1,0 +1,32 @@
+1. adatbázis
+create database autokereskedes
+default character set utf8
+collate utf8_hungarian_ci;
+
+2. tábla
+create table autok(
+    id int primary key AUTO_INCREMENT,
+    marka varchar(20) not null,
+    modell varchar(20) not null,
+    kivitel varchar(10) not null,
+    evjarat int(4) not null, 
+    ar double(9,2) not null,
+    rendszam varchar(8) not null,
+    klíma decimal not null,
+    üzemanyag varchar(6) not null
+    );
+
+3. tartalom
+insert into autok
+(marka, modell, kivitel, evjarat, ar, rendszam, klíma, üzemanyag)
+VALUES
+('Peugeot', '308 sw', 'kombi', 2008, 1300000, 'TGH-971', 1, 'dízel'),
+('Volkswagen', 'Golf', 'ferdehátú', 2012, 1850000, 'ABC-123', 1, 'benzin'),
+('Opel', 'Astra', 'kombi', 2010, 1450000, 'DEF-456', 1, 'dízel'),
+('Ford', 'Focus', 'ferdehátú', 2014, 2200000, 'GHI-789', 1, 'benzin'),
+('Skoda', 'Octavia', 'kombi', 2015, 2750000, 'JKL-234', 1, 'dízel'),
+('BMW', '320d', 'szedán', 2011, 2400000, 'MNO-567', 1, 'dízel'),
+('Audi', 'A4', 'szedán', 2013, 2900000, 'PQR-890', 1, 'dízel'),
+('Toyota', 'Corolla', 'ferdehátú', 2016, 3200000, 'STU-345', 1, 'benzin'),
+('Renault', 'Megane', 'kombi', 2012, 1650000, 'VWX-678', 0, 'dízel'),
+('Suzuki', 'Swift', 'ferdehátú', 2017, 2500000, 'YZA-912', 1, 'benzin');
