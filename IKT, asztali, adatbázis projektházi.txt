@@ -1,1 +1,11 @@
-Autó márka, Modell, Kivitel, Évjárat, Ár, Rendszám, Klíma
+Autó márka; Modell; Kivitel; Évjárat; Ár; Rendszám; Klíma; Üzemanyag;
+Peugeot; 308 sw; kombi; 2008; 1300000; TGH-971; igen; dízel;
+Volkswagen; Golf; ferdehátú; 2012; 1850000; ABC-123; igen; benzin;
+Opel; Astra; kombi; 2010; 1450000; DEF-456; igen; dízel;
+Ford; Focus; ferdehátú; 2014; 2200000; GHI-789; igen; benzin;
+Skoda; Octavia; kombi; 2015; 2750000; JKL-234; igen; dízel;
+BMW; 320d; szedán; 2011; 2400000; MNO-567; igen; dízel;
+Audi; A4; szedán; 2013; 2900000; PQR-890; igen; dízel;
+Toyota; Corolla; ferdehátú; 2016; 3200000; STU-345; igen; benzin;
+Renault; Megane; kombi; 2012; 1650000; VWX-678; nem; dízel;
+Suzuki; Swift; ferdehátú; 2017; 2500000; YZA-912; igen; benzin;
